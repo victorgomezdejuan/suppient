@@ -1,0 +1,61 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #222;
+  background-color: #f9fdf9;
+}
+
+header {
+  background-color: #d8f5e1;
+  text-align: center;
+  padding: 2em;
+}
+
+.logo {
+  max-width: 200px;
+  margin-bottom: 1em;
+}
+
+h1 {
+  font-size: 1.8em;
+  margin-bottom: 1em;
+  color: #23553e;
+}
+
+.subscribe input {
+  padding: 0.5em;
+  font-size: 1em;
+  width: 250px;
+  max-width: 90%;
+  margin: 0.5em;
+}
+
+.subscribe button {
+  padding: 0.5em 1em;
+  font-size: 1em;
+  background-color: #23553e;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+main {
+  padding: 2em;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+h2 {
+  color: #23553e;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #f0f0f0;
+  font-size: 0.9em;
+}
