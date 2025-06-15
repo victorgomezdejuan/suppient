@@ -13,9 +13,16 @@ header {
   padding: 2em;
 }
 
-.logo {
-  max-width: 200px;
+.logo-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
   margin-bottom: 1em;
+}
+
+.logo {
+  max-width: 300px;
+  height: auto;
 }
 
 h1 {
