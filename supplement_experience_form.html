@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Supplement Experience Form</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; background: #f8fdf8; color: #333; }
+    h1 { color: #23553e; }
+    h2 { color: #2f6f4e; border-bottom: 1px solid #ccc; padding-bottom: 5px; }
+    label, p { margin-top: 10px; display: block; }
+    input[type=text], textarea, select {
+      width: 100%; padding: 8px; margin-top: 5px; margin-bottom: 15px; border-radius: 4px; border: 1px solid #ccc;
+    }
+    input[type=submit] {
+      background-color: #23553e; color: white; padding: 10px 20px; border: none;
+      border-radius: 4px; cursor: pointer; font-size: 16px;
+    }
+    input[type=submit]:hover { background-color: #1b4030; }
+  </style>
+</head>
+<body>
+  <h1>Supplement Experience Form</h1>
+
+  <form>
+    <h2>1. Supplement</h2>
+    <label>Supplement name:</label><input type="text" name="supplement_name">
+    <label>Brand:</label><input type="text" name="brand">
+    <label>Main active ingredient:</label>
+    <select name="active_ingredient">
+      <option>Melatonin</option>
+      <option>Magnesium</option>
+      <option>Ashwagandha</option>
+      <option>Omega-3</option>
+      <option>Inositol</option>
+      <option>Vitamin D</option>
+      <option>NAC (N-Acetylcysteine)</option>
+      <option>Other</option>
+    </select>
+
+    <h2>2. Reason for use</h2>
+    <label>Condition or health issue:</label>
+    <select name="condition">
+      <option>Insomnia</option>
+      <option>Anxiety</option>
+      <option>Hair loss</option>
+      <option>Fatigue</option>
+      <option>Depression</option>
+      <option>Immune support</option>
+      <option>Digestive issues</option>
+      <option>Other</option>
+    </select>
+    <p>Who recommended it to you?</p>
+    <label><input type="checkbox"> Health professional</label>
+    <label><input type="checkbox"> Friends/family</label>
+    <label><input type="checkbox"> Internet</label>
+    <label><input type="checkbox"> Other</label>
+
+    <h2>3. Usage</h2>
+    <label>How long did you take it?</label>
+    <select name="duration">
+      <option>Less than 1 week</option>
+      <option>1–4 weeks</option>
+      <option>1–3 months</option>
+      <option>More than 3 months</option>
+    </select>
+    <label>Frequency of use:</label>
+    <select name="frequency">
+      <option>Once a week</option>
+      <option>2 times a week</option>
+      <option>3 times a week</option>
+      <option>4 times a week</option>
+      <option>5 times a week</option>
+      <option>6 times a week</option>
+      <option>Daily</option>
+      <option>2 times a day</option>
+      <option>3 times a day</option>
+    </select>
+    <label>What time(s) of day did you take it?</label><input type="text" name="timing">
+    <label>Dosage per use:</label><input type="text" name="dosage">
+    <label>Form of intake:</label>
+    <select name="form">
+      <option>Capsules</option>
+      <option>Powder</option>
+      <option>Liquid</option>
+      <option>Drops</option>
+      <option>Other</option>
+    </select>
+    <label>Did you take it with food?</label>
+    <select name="with_food">
+      <option>Always</option>
+      <option>Sometimes</option>
+      <option>Never</option>
+      <option>I don't remember</option>
+    </select>
+
+    <h2>4. Perceived results</h2>
+    <label>Did it improve your condition?</label>
+    <select name="effectiveness">
+      <option>Yes, significantly</option>
+      <option>Yes, moderately</option>
+      <option>No noticeable change</option>
+      <option>It made things worse</option>
+    </select>
+    <label>How long did it take to notice effects?</label>
+    <select name="effect_time">
+      <option>Within a few days</option>
+      <option>1–2 weeks</option>
+      <option>More than 1 month</option>
+      <option>Never noticed any effect</option>
+    </select>
+
+    <h2>5. Side effects</h2>
+    <label>Did you experience any side effects?</label>
+    <select name="side_effects">
+      <option>No</option>
+      <option>Yes</option>
+    </select>
+    <label>If yes, please describe:</label><input type="text" name="side_effects_description">
+
+    <h2>6. Overall evaluation</h2>
+    <label>Would you recommend this supplement?</label>
+    <select name="recommendation">
+      <option>Yes, definitely</option>
+      <option>Yes, with some reservations</option>
+      <option>Not sure</option>
+      <option>No</option>
+    </select>
+    <label>Overall rating (1 to 5):</label><input type="text" name="rating" placeholder="e.g. 4">
+
+    <h2>7. About you (optional)</h2>
+    <label>Age:</label><input type="text" name="age">
+    <label>Gender:</label>
+    <select name="gender">
+      <option>Male</option>
+      <option>Female</option>
+      <option>Prefer not to say</option>
+    </select>
+    <label>Other relevant health conditions:</label><input type="text" name="other_conditions">
+    <label>Are you taking other supplements or medications?</label><input type="text" name="other_supplements">
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
