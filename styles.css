@@ -10,6 +10,37 @@ header {
   background-color: #d8f5e1;
   text-align: center;
   padding: 2em;
+  position: relative;
+}
+
+.language-toggle {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  display: flex;
+  gap: 0.5em;
+}
+
+.lang-btn {
+  background-color: transparent;
+  border: 2px solid #23553e;
+  color: #23553e;
+  padding: 0.3em 0.8em;
+  cursor: pointer;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 0.9em;
+  transition: all 0.3s ease;
+}
+
+.lang-btn:hover {
+  background-color: #23553e;
+  color: white;
+}
+
+.lang-btn.active {
+  background-color: #23553e;
+  color: white;
 }
 
 .logo-container {
@@ -87,4 +118,32 @@ footer {
   background-color: #1b4030;
   transform: translateY(-2px);
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Responsive design for mobile */
+@media (max-width: 768px) {
+  .language-toggle {
+    position: relative;
+    top: auto;
+    right: auto;
+    justify-content: center;
+    margin-bottom: 1em;
+  }
+  
+  .lang-btn {
+    font-size: 0.8em;
+    padding: 0.4em 1em;
+  }
+  
+  header {
+    padding: 1.5em 1em;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+  }
+  
+  .subscribe input {
+    width: 200px;
+  }
 }

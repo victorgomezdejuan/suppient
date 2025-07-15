@@ -9,58 +9,111 @@
 </head>
 <body>
   <header>
+    <div class="language-toggle">
+      <button id="lang-en" class="lang-btn active" onclick="switchLanguage('en')">EN</button>
+      <button id="lang-es" class="lang-btn" onclick="switchLanguage('es')">ES</button>
+    </div>
     <div class="logo-container">
       <img src="logo.png" alt="Suppient Logo" class="logo"/>
     </div>
-    <h1>Real experiences. Smarter supplement decisions.</h1>
+    <h1 data-en="Real experiences. Smarter supplement decisions." data-es="Experiencias reales. Decisiones más inteligentes sobre suplementos.">Real experiences. Smarter supplement decisions.</h1>
     <div class="demo-link-container">
-      <a href="https://demo.suppient.com" class="demo-button">Try Our Demo</a>
+      <a href="https://demo.suppient.com" class="demo-button" data-en="Try Our Demo" data-es="Prueba Nuestra Demo">Try Our Demo</a>
     </div>
       <form name="contact" class="subscribe" netlify>
-        <input type="email" name="email" placeholder="Your email address" required/>
-        <button type="submit">Keep me informed</button>
+        <input type="email" name="email" placeholder="Your email address" data-placeholder-en="Your email address" data-placeholder-es="Tu dirección de correo electrónico" required/>
+        <button type="submit" data-en="Keep me informed" data-es="Mantenme informado">Keep me informed</button>
       </form>
   </header>
 
   <main>
     <section>
-      <h2>Opportunity</h2>
-      <p>Dietary supplements offer great therapeutic potential: fewer side effects, lower cost, and no need for a medical prescription compared to many traditional drugs.</p>
-      <p>The combination of massive user testimony, artificial intelligence, and structured data creates a unique opportunity to democratize knowledge about supplement effectiveness.</p>
+      <h2 data-en="Opportunity" data-es="Oportunidad">Opportunity</h2>
+      <p data-en="Dietary supplements offer great therapeutic potential: fewer side effects, lower cost, and no need for a medical prescription compared to many traditional drugs." data-es="Los suplementos dietéticos ofrecen un gran potencial terapéutico: menos efectos secundarios, menor costo y no necesidad de prescripción médica en comparación con muchos medicamentos tradicionales.">Dietary supplements offer great therapeutic potential: fewer side effects, lower cost, and no need for a medical prescription compared to many traditional drugs.</p>
+      <p data-en="The combination of massive user testimony, artificial intelligence, and structured data creates a unique opportunity to democratize knowledge about supplement effectiveness." data-es="La combinación de testimonios masivos de usuarios, inteligencia artificial y datos estructurados crea una oportunidad única para democratizar el conocimiento sobre la efectividad de los suplementos.">The combination of massive user testimony, artificial intelligence, and structured data creates a unique opportunity to democratize knowledge about supplement effectiveness.</p>
     </section>
 
     <section>
-      <h2>The Problem</h2>
+      <h2 data-en="The Problem" data-es="El Problema">The Problem</h2>
       <ul>
-        <li>Lack of structured, accessible data from real experiences.</li>
-        <li>No organized, understandable evidence for the general public.</li>
-        <li>No neutral platforms that separate marketing from real information.</li>
+        <li data-en="Lack of structured, accessible data from real experiences." data-es="Falta de datos estructurados y accesibles de experiencias reales.">Lack of structured, accessible data from real experiences.</li>
+        <li data-en="No organized, understandable evidence for the general public." data-es="No hay evidencia organizada y comprensible para el público general.">No organized, understandable evidence for the general public.</li>
+        <li data-en="No neutral platforms that separate marketing from real information." data-es="No hay plataformas neutrales que separen el marketing de la información real.">No neutral platforms that separate marketing from real information.</li>
       </ul>
     </section>
 
     <section>
-      <h2>The Solution: Suppient</h2>
-      <p>Suppient is a digital platform (web and mobile) where users can:</p>
+      <h2 data-en="The Solution: Suppient" data-es="La Solución: Suppient">The Solution: Suppient</h2>
+      <p data-en="Suppient is a digital platform (web and mobile) where users can:" data-es="Suppient es una plataforma digital (web y móvil) donde los usuarios pueden:">Suppient is a digital platform (web and mobile) where users can:</p>
       <ul>
-        <li>Share their supplement experiences through structured questionnaires.</li>
-        <li>Access aggregated results on perceived effectiveness, side effects, and response times.</li>
-        <li>Explore an independent marketplace based on real reputation.</li>
+        <li data-en="Share their supplement experiences through structured questionnaires." data-es="Compartir sus experiencias con suplementos a través de cuestionarios estructurados.">Share their supplement experiences through structured questionnaires.</li>
+        <li data-en="Access aggregated results on perceived effectiveness, side effects, and response times." data-es="Acceder a resultados agregados sobre efectividad percibida, efectos secundarios y tiempos de respuesta.">Access aggregated results on perceived effectiveness, side effects, and response times.</li>
+        <li data-en="Explore an independent marketplace based on real reputation." data-es="Explorar un mercado independiente basado en reputación real.">Explore an independent marketplace based on real reputation.</li>
       </ul>
-      <p>The platform uses AI and data analysis to identify patterns, generate visualizations, and enhance decision-making.</p>
+      <p data-en="The platform uses AI and data analysis to identify patterns, generate visualizations, and enhance decision-making." data-es="La plataforma utiliza IA y análisis de datos para identificar patrones, generar visualizaciones y mejorar la toma de decisiones.">The platform uses AI and data analysis to identify patterns, generate visualizations, and enhance decision-making.</p>
     </section>
 
     <section>
-      <h2>Target Audience</h2>
+      <h2 data-en="Target Audience" data-es="Público Objetivo">Target Audience</h2>
       <ul>
-        <li>People seeking natural alternatives for health problems.</li>
-        <li>Health professionals with an integrative approach.</li>
-        <li>Supplement brands committed to transparency.</li>
+        <li data-en="People seeking natural alternatives for health problems." data-es="Personas que buscan alternativas naturales para problemas de salud.">People seeking natural alternatives for health problems.</li>
+        <li data-en="Health professionals with an integrative approach." data-es="Profesionales de la salud con un enfoque integrativo.">Health professionals with an integrative approach.</li>
+        <li data-en="Supplement brands committed to transparency." data-es="Marcas de suplementos comprometidas con la transparencia.">Supplement brands committed to transparency.</li>
       </ul>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Suppient | <a href="mailto:info@suppient.com">info@suppient.com</a></p>
+    <p data-en="&copy; 2025 Suppient | <a href='mailto:info@suppient.com'>info@suppient.com</a>" data-es="&copy; 2025 Suppient | <a href='mailto:info@suppient.com'>info@suppient.com</a>">&copy; 2025 Suppient | <a href="mailto:info@suppient.com">info@suppient.com</a></p>
   </footer>
+
+  <script>
+    let currentLanguage = 'en';
+
+    function switchLanguage(lang) {
+      currentLanguage = lang;
+      
+      // Update active button
+      document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
+      document.getElementById('lang-' + lang).classList.add('active');
+      
+      // Update all text elements
+      document.querySelectorAll('[data-' + lang + ']').forEach(element => {
+        element.innerHTML = element.getAttribute('data-' + lang);
+      });
+      
+      // Update placeholder for email input
+      const emailInput = document.querySelector('input[name="email"]');
+      if (emailInput) {
+        emailInput.placeholder = emailInput.getAttribute('data-placeholder-' + lang);
+      }
+      
+      // Store language preference
+      localStorage.setItem('suppient-language', lang);
+    }
+
+    // Detect user's preferred language
+    function getDefaultLanguage() {
+      // First check if user has a saved preference
+      const savedLang = localStorage.getItem('suppient-language');
+      if (savedLang) {
+        return savedLang;
+      }
+      
+      // Get browser language
+      const browserLang = navigator.language || navigator.userLanguage || 'en';
+      
+      // If browser language starts with 'es' (Spanish), return 'es', otherwise return 'en'
+      return browserLang.toLowerCase().startsWith('es') ? 'es' : 'en';
+    }
+
+    // Load language preference on page load
+    document.addEventListener('DOMContentLoaded', function() {
+      const defaultLang = getDefaultLanguage();
+      if (defaultLang !== 'en') {
+        switchLanguage(defaultLang);
+      }
+    });
+  </script>
 </body>
 </html>
